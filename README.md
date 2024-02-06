@@ -8,7 +8,7 @@ pip install phiflow
 pip install cliffordlayers
 ```
 
-# How to run
+# Getting started
 
 First you need to generate simulation data. You can do so via
 
@@ -18,7 +18,7 @@ pyton3 generatedataval.py
 pyton3 generatedatatest.py
 ```
 
-# Example usage:
+# Example usage
 
 ```
 python3 training.py -m CF -A 3 -b 32 -s 28996 -t 15600 -p 10
