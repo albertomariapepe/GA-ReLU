@@ -1,0 +1,131 @@
+INFO:root:*************
+INFO:root:             
+INFO:root:model chosen: CF
+INFO:root:multivector activation function?: 0
+INFO:root:training trajectories: 2080
+INFO:root:training epochs: 200
+INFO:root:training batchsize: 32
+INFO:root:learning rate: 0.0001
+INFO:root:seed: 28996
+INFO:root:patience: 15
+INFO:root:training dataset path: datasets/trainingdataviscous/
+INFO:root:test dataset path: datasets/testdataviscous/
+INFO:root:             
+INFO:root:*************
+INFO:root:Using device: cuda
+INFO:root:[[[1.6940998  1.5566934  1.3046039  1.0440726 ]
+  [1.6066581  1.3995012  1.342347   1.233624  ]
+  [1.4666691  1.3354036  1.3883016  1.2737162 ]
+  [1.4122795  1.3854291  1.4587754  1.339578  ]]
+
+ [[1.6459564  1.3450366  1.0299298  0.77708894]
+  [1.6489182  1.5250436  1.3721011  1.2203181 ]
+  [1.4844782  1.3996952  1.3643513  1.3251002 ]
+  [1.3969231  1.3963239  1.4048748  1.4067723 ]]]
+INFO:root:****
+INFO:root:[[[1.6940998  1.5566934  1.3046039  1.0440726 ]
+  [1.6066581  1.3995012  1.342347   1.233624  ]
+  [1.4666691  1.3354036  1.3883016  1.2737162 ]
+  [1.4122795  1.3854291  1.4587754  1.339578  ]]
+
+ [[1.6459564  1.3450366  1.0299298  0.77708894]
+  [1.6489182  1.5250436  1.3721011  1.2203181 ]
+  [1.4844782  1.3996952  1.3643513  1.3251002 ]
+  [1.3969231  1.3963239  1.4048748  1.4067723 ]]]
+INFO:root:Train input shape: torch.Size([2080, 2, 128, 128, 3])
+INFO:root:Train labels shape: torch.Size([2080, 1, 128, 128, 3])
+INFO:root:                   
+INFO:root:Val input shape: torch.Size([4680, 2, 128, 128, 3])
+INFO:root:Val labels shape: torch.Size([4680, 1, 128, 128, 3])
+INFO:root:*************
+INFO:root:             
+INFO:root:Starting to train....
+INFO:root:Epoch: 0 - LOSS train: 0 LOSS val: 0.2530136704444885 - Elapsed time: 75.50255846977234 s
+INFO:root:Epoch: 1 - LOSS train: 0 LOSS val: 0.151818186044693 - Elapsed time: 74.22309112548828 s
+INFO:root:Epoch: 2 - LOSS train: 0 LOSS val: 0.11303849518299103 - Elapsed time: 74.12997031211853 s
+INFO:root:Epoch: 3 - LOSS train: 0 LOSS val: 0.09272020310163498 - Elapsed time: 74.02656579017639 s
+INFO:root:Epoch: 4 - LOSS train: 0 LOSS val: 0.0814351812005043 - Elapsed time: 74.17681360244751 s
+INFO:root:Epoch: 5 - LOSS train: 0 LOSS val: 0.0740814283490181 - Elapsed time: 74.02886939048767 s
+INFO:root:Epoch: 6 - LOSS train: 0 LOSS val: 0.0686778724193573 - Elapsed time: 74.1890389919281 s
+INFO:root:Epoch: 7 - LOSS train: 0 LOSS val: 0.06386875361204147 - Elapsed time: 74.06513857841492 s
+INFO:root:Epoch: 8 - LOSS train: 0 LOSS val: 0.06055910140275955 - Elapsed time: 74.23487138748169 s
+INFO:root:Epoch: 9 - LOSS train: 0 LOSS val: 0.05749602988362312 - Elapsed time: 74.08816981315613 s
+INFO:root:Epoch: 10 - LOSS train: 0 LOSS val: 0.0546867772936821 - Elapsed time: 74.20357275009155 s
+INFO:root:Epoch: 11 - LOSS train: 0 LOSS val: 0.052560288459062576 - Elapsed time: 74.06325554847717 s
+INFO:root:Epoch: 12 - LOSS train: 0 LOSS val: 0.05071990564465523 - Elapsed time: 74.19699001312256 s
+INFO:root:Epoch: 13 - LOSS train: 0 LOSS val: 0.04934343323111534 - Elapsed time: 74.13553380966187 s
+INFO:root:Epoch: 14 - LOSS train: 0 LOSS val: 0.04792363941669464 - Elapsed time: 74.21431946754456 s
+INFO:root:Epoch: 15 - LOSS train: 0 LOSS val: 0.046288106590509415 - Elapsed time: 74.0716700553894 s
+INFO:root:Epoch: 16 - LOSS train: 0 LOSS val: 0.04520971700549126 - Elapsed time: 74.17554306983948 s
+INFO:root:Epoch: 17 - LOSS train: 0 LOSS val: 0.04428192973136902 - Elapsed time: 74.12854242324829 s
+INFO:root:Epoch: 18 - LOSS train: 0 LOSS val: 0.04330349341034889 - Elapsed time: 74.21526718139648 s
+INFO:root:Epoch: 19 - LOSS train: 0 LOSS val: 0.04242997616529465 - Elapsed time: 74.06738686561584 s
+INFO:root:Epoch: 20 - LOSS train: 0 LOSS val: 0.04250986874103546 - Elapsed time: 74.24922156333923 s
+INFO:root:Epoch: 21 - LOSS train: 0 LOSS val: 0.04099823907017708 - Elapsed time: 74.10641765594482 s
+INFO:root:Epoch: 22 - LOSS train: 0 LOSS val: 0.040134232491254807 - Elapsed time: 74.1898684501648 s
+INFO:root:Epoch: 23 - LOSS train: 0 LOSS val: 0.0397421233355999 - Elapsed time: 74.05605983734131 s
+INFO:root:Epoch: 24 - LOSS train: 0 LOSS val: 0.039462942630052567 - Elapsed time: 74.17570281028748 s
+INFO:root:Epoch: 25 - LOSS train: 0 LOSS val: 0.038773342967033386 - Elapsed time: 74.09327387809753 s
+INFO:root:Epoch: 26 - LOSS train: 0 LOSS val: 0.037945568561553955 - Elapsed time: 74.21789479255676 s
+INFO:root:Epoch: 27 - LOSS train: 0 LOSS val: 0.03754518926143646 - Elapsed time: 74.10503625869751 s
+INFO:root:Epoch: 28 - LOSS train: 0 LOSS val: 0.03709259629249573 - Elapsed time: 74.221355676651 s
+INFO:root:Epoch: 29 - LOSS train: 0 LOSS val: 0.036700643599033356 - Elapsed time: 74.04664254188538 s
+INFO:root:Epoch: 30 - LOSS train: 0 LOSS val: 0.03679529204964638 - Elapsed time: 74.13938307762146 s
+INFO:root:Epoch: 31 - LOSS train: 0 LOSS val: 0.036140285432338715 - Elapsed time: 74.09746384620667 s
+INFO:root:Epoch: 32 - LOSS train: 0 LOSS val: 0.03578302636742592 - Elapsed time: 74.213858127594 s
+INFO:root:Epoch: 33 - LOSS train: 0 LOSS val: 0.03533918038010597 - Elapsed time: 74.14057898521423 s
+INFO:root:Epoch: 34 - LOSS train: 0 LOSS val: 0.0352620966732502 - Elapsed time: 74.1744863986969 s
+INFO:root:Epoch: 35 - LOSS train: 0 LOSS val: 0.03475812077522278 - Elapsed time: 74.08017563819885 s
+INFO:root:Epoch: 36 - LOSS train: 0 LOSS val: 0.03466733172535896 - Elapsed time: 74.22401475906372 s
+INFO:root:Epoch: 37 - LOSS train: 0 LOSS val: 0.03443115949630737 - Elapsed time: 74.09001588821411 s
+INFO:root:Epoch: 38 - LOSS train: 0 LOSS val: 0.034221965819597244 - Elapsed time: 74.18309354782104 s
+INFO:root:Epoch: 39 - LOSS train: 0 LOSS val: 0.03406098857522011 - Elapsed time: 74.05261182785034 s
+INFO:root:Epoch: 40 - LOSS train: 0 LOSS val: 0.03369476646184921 - Elapsed time: 74.15734434127808 s
+INFO:root:Epoch: 41 - LOSS train: 0 LOSS val: 0.033416979014873505 - Elapsed time: 74.11284017562866 s
+INFO:root:Epoch: 42 - LOSS train: 0 LOSS val: 0.03339933604001999 - Elapsed time: 74.19516134262085 s
+INFO:root:Epoch: 43 - LOSS train: 0 LOSS val: 0.03305976465344429 - Elapsed time: 74.09598231315613 s
+INFO:root:Epoch: 44 - LOSS train: 0 LOSS val: 0.03291378170251846 - Elapsed time: 74.1540458202362 s
+INFO:root:Epoch: 45 - LOSS train: 0 LOSS val: 0.032757241278886795 - Elapsed time: 74.03112864494324 s
+INFO:root:Epoch: 46 - LOSS train: 0 LOSS val: 0.03268494829535484 - Elapsed time: 74.22782850265503 s
+INFO:root:Epoch: 47 - LOSS train: 0 LOSS val: 0.03258481249213219 - Elapsed time: 74.0666983127594 s
+INFO:root:Epoch: 48 - LOSS train: 0 LOSS val: 0.032186634838581085 - Elapsed time: 74.1977972984314 s
+INFO:root:Epoch: 49 - LOSS train: 0 LOSS val: 0.0323089063167572 - Elapsed time: 74.0446469783783 s
+INFO:root:Epoch: 50 - LOSS train: 0 LOSS val: 0.03213110566139221 - Elapsed time: 74.22104954719543 s
+INFO:root:Epoch: 51 - LOSS train: 0 LOSS val: 0.032121699303388596 - Elapsed time: 74.08886289596558 s
+INFO:root:Epoch: 52 - LOSS train: 0 LOSS val: 0.031733959913253784 - Elapsed time: 74.27832865715027 s
+INFO:root:Epoch: 53 - LOSS train: 0 LOSS val: 0.032190438359975815 - Elapsed time: 74.11592602729797 s
+INFO:root:Epoch: 54 - LOSS train: 0 LOSS val: 0.031641725450754166 - Elapsed time: 74.52066612243652 s
+INFO:root:Epoch: 55 - LOSS train: 0 LOSS val: 0.03143027052283287 - Elapsed time: 74.15479922294617 s
+INFO:root:Epoch: 56 - LOSS train: 0 LOSS val: 0.031439293175935745 - Elapsed time: 74.26762437820435 s
+INFO:root:Epoch: 57 - LOSS train: 0 LOSS val: 0.031386151909828186 - Elapsed time: 74.17551946640015 s
+INFO:root:Epoch: 58 - LOSS train: 0 LOSS val: 0.031375352293252945 - Elapsed time: 74.21613717079163 s
+INFO:root:Epoch: 59 - LOSS train: 0 LOSS val: 0.03164495900273323 - Elapsed time: 74.07215976715088 s
+INFO:root:Epoch: 60 - LOSS train: 0 LOSS val: 0.031216783449053764 - Elapsed time: 74.20910859107971 s
+INFO:root:Epoch: 61 - LOSS train: 0 LOSS val: 0.03110172599554062 - Elapsed time: 74.11944937705994 s
+INFO:root:Epoch: 62 - LOSS train: 0 LOSS val: 0.03115345537662506 - Elapsed time: 74.21245503425598 s
+INFO:root:Epoch: 63 - LOSS train: 0 LOSS val: 0.030833188444375992 - Elapsed time: 74.12523293495178 s
+INFO:root:Epoch: 64 - LOSS train: 0 LOSS val: 0.030689405277371407 - Elapsed time: 74.22832560539246 s
+INFO:root:Epoch: 65 - LOSS train: 0 LOSS val: 0.030788004398345947 - Elapsed time: 74.0843391418457 s
+INFO:root:Epoch: 66 - LOSS train: 0 LOSS val: 0.03065844438970089 - Elapsed time: 74.24860787391663 s
+INFO:root:Epoch: 67 - LOSS train: 0 LOSS val: 0.03050539828836918 - Elapsed time: 74.0224814414978 s
+INFO:root:Epoch: 68 - LOSS train: 0 LOSS val: 0.03055480308830738 - Elapsed time: 74.21113061904907 s
+INFO:root:Epoch: 69 - LOSS train: 0 LOSS val: 0.030306696891784668 - Elapsed time: 74.04316926002502 s
+INFO:root:Epoch: 70 - LOSS train: 0 LOSS val: 0.03044416755437851 - Elapsed time: 74.18737936019897 s
+INFO:root:Epoch: 71 - LOSS train: 0 LOSS val: 0.030412664636969566 - Elapsed time: 74.04257845878601 s
+INFO:root:Epoch: 72 - LOSS train: 0 LOSS val: 0.03036206029355526 - Elapsed time: 74.17471528053284 s
+INFO:root:Epoch: 73 - LOSS train: 0 LOSS val: 0.03023131564259529 - Elapsed time: 74.10161709785461 s
+INFO:root:Epoch: 74 - LOSS train: 0 LOSS val: 0.030249062925577164 - Elapsed time: 74.20565223693848 s
+INFO:root:Epoch: 75 - LOSS train: 0 LOSS val: 0.030090365558862686 - Elapsed time: 74.06827688217163 s
+INFO:root:Epoch: 76 - LOSS train: 0 LOSS val: 0.03000728040933609 - Elapsed time: 74.20570397377014 s
+INFO:root:Epoch: 77 - LOSS train: 0 LOSS val: 0.03001262992620468 - Elapsed time: 74.0344398021698 s
+INFO:root:Epoch: 78 - LOSS train: 0 LOSS val: 0.029893510043621063 - Elapsed time: 74.23356938362122 s
+INFO:root:Epoch: 79 - LOSS train: 0 LOSS val: 0.029934728518128395 - Elapsed time: 74.09591102600098 s
+INFO:root:*************
+INFO:root:             
+INFO:root:Starting to test....
+INFO:root:             
+INFO:root:OneStep loss: 0.030108395963907242
+INFO:root:Scalar loss: 0.04412984102964401
+INFO:root:Vector loss: 0.02309766225516796
+INFO:root:             
+INFO:root:Done.
