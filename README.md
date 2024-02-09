@@ -13,9 +13,9 @@ pip install cliffordlayers
 First you need to generate simulation data. You can do so via
 
 ```
-pyton3 generatedata.py
-pyton3 generatedataval.py
-pyton3 generatedatatest.py
+python3 generatedata.py
+python3 generatedataval.py
+python3 generatedatatest.py
 ```
 
 # Example usage
