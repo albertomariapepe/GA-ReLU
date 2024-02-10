@@ -1,7 +1,7 @@
 import torch.nn.functional as F
 import torch
 import sys
-sys.path.append(r"/home/albertopepe/Desktop/navierstokes/")
+sys.path.append(r"/home/***/Desktop/navierstokes/")
 
 from cliffordlayers.cliffordlayers.cliffordalgebra import CliffordAlgebra
 
