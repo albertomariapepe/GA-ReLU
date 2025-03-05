@@ -1,6 +1,6 @@
 
 # GA-ReLU 🌊  
-*Submitted to ICLR Workshop on AI4DifferentialEquations in Science*
+*Presented at ICLR 2024, Workshop on AI4DifferentialEquations in Science*
 
 ## Introduction  
 Many differential equations describing physical phenomena are intrinsically geometric in nature 📐. It has been demonstrated that the geometric structure of data can be effectively captured through networks operating in **Geometric Algebra (GA)** using multivectors. These networks show great promise for solving differential equations, yet GA networks remain largely uncharted territory. In this paper, we focus on non-linearities—a challenging aspect when applied to multivectors, as they are typically handled point-wise on each real-valued component. This conventional approach discards the interactions between different elements of the multivector, compromising the inherent geometric structure. To bridge this gap, we propose **GA-ReLU** ⚡, a GA-based approach to the rectified linear unit (ReLU), and demonstrate how it can enhance the solution of **Navier-Stokes** PDEs 🌊.
