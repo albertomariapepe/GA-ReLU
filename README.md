@@ -28,6 +28,18 @@ python3 generatedatatest.py
 python3 training.py -m CF -A 3 -b 32 -s 28996 -t 15600 -p 10
 ```
 
+## How to Cite
+
+```
+@inproceedings{pepe2024ga,
+  title={GA-reLU: an activation function for geometric algebra networks applied to 2d navier-stokes PDEs},
+  author={Pepe, Alberto and Buchholz, Sven and Lasenby, Joan},
+  booktitle={ICLR 2024 Workshop on AI4DifferentialEquations In Science},
+  year={2024}
+}
+```
+
+
 This line will launch the training of a Clifford FNO, using the 3rd activation function in `act.py` (our **GA-ReLU**), with batch size = 32, random seed = 28996, 15600 training examples, and early stopping with a patience of 10. Alternatively, you can write multiple lines with different parameters and simply launch:
 
 ```
